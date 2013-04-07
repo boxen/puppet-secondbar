@@ -1,4 +1,4 @@
-# SecondBar Puppet Module for Boxen
+# SecondBar Puppet Module for Boxen [![Build Status](https://travis-ci.org/boxen/puppet-secondbar.png)](https://travis-ci.org/boxen/puppet-secondbar)
 
 Install [SecondBar](http://blog.boastr.net/?page_id=79), a tool which allows you to have more than one menubar in Mac OS X.
 
@@ -14,8 +14,5 @@ include secondbar
 
 ## Development
 
-Write code. Run one of the following tasks to test it:
-* `rake syntax`
-* `rake style`
-* `rake spec`
-* `rake build`
+Write code. Run `script/cibuild` to test it. Check the `script`
+directory for other useful tools.
