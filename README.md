@@ -1,18 +1,7 @@
-# SecondBar Puppet Module for Boxen [![Build Status](https://travis-ci.org/boxen/puppet-secondbar.png)](https://travis-ci.org/boxen/puppet-secondbar)
+# SecondBar Puppet Module for Boxen
 
-Install [SecondBar](http://blog.boastr.net/?page_id=79), a tool which allows you to have more than one menubar in Mac OS X.
+Deprecated in favour of [brewcask][1] and [Boxen's in built support for
+homebrew/brewcask][2].
 
-## Usage
-
-```puppet
-include secondbar
-```
-
-## Required Puppet Modules
-
-* `boxen`
-
-## Development
-
-Write code. Run `script/cibuild` to test it. Check the `script`
-directory for other useful tools.
+[1]: https://caskroom.github.io/
+[2]: https://git.io/v6NlB
